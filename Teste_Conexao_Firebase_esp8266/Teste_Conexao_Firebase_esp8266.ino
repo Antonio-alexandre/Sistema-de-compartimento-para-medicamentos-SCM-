@@ -76,7 +76,7 @@ void loop() {
   delay(1000);
 
   // set string value
-  Firebase.setString("message", "dodoy e viado");
+  Firebase.setString("message", "Funcionou");
   // handle error
   if (Firebase.failed()) {
       Serial.print("setting /message failed:");
