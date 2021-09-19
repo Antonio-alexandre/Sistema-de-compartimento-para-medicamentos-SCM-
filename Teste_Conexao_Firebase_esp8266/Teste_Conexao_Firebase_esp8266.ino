@@ -23,8 +23,8 @@
 // Set these to run example.
 #define FIREBASE_HOST "projete2021-b8ce4-default-rtdb.firebaseio.com"
 #define FIREBASE_AUTH "HoRbiDGvEXOnCNdb0HF2VBbQoc8bwxIIuBG4gOsR"
-#define WIFI_SSID "Arpfamily"
-#define WIFI_PASSWORD "45904590"
+#define WIFI_SSID "A******"
+#define WIFI_PASSWORD "45*******"
 
 void setup() {
   Serial.begin(9600);
@@ -76,7 +76,7 @@ void loop() {
   delay(1000);
 
   // set string value
-  Firebase.setString("message", "hello world");
+  Firebase.setString("message", "dodoy e viado");
   // handle error
   if (Firebase.failed()) {
       Serial.print("setting /message failed:");
