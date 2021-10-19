@@ -23,8 +23,8 @@
 // Set these to run example.
 #define FIREBASE_HOST "projete2021-b8ce4-default-rtdb.firebaseio.com"
 #define FIREBASE_AUTH "HoRbiDGvEXOnCNdb0HF2VBbQoc8bwxIIuBG4gOsR"
-#define WIFI_SSID "AndroidAPEE46"
-#define WIFI_PASSWORD "vreb1013"
+#define WIFI_SSID "Arpfamily"
+#define WIFI_PASSWORD "45904590"
 
 void setup() {
   Serial.begin(9600);
